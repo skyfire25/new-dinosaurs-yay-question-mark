@@ -1,4 +1,10 @@
-const makeDino = function() {
+const makeDino = function(newSpecies, newPeriod, newCarnivore, newExtinct = false) {
+  return {
+    species: newSpecies,
+    period: newPeriod, 
+    carnivore: newCarnivore,
+    extinct: newExtinct,
+  }
 }
 
 const makeSingular = function() {
